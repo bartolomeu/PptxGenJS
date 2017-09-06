@@ -26,7 +26,7 @@ function getTimestamp() {
 
 if (gConsoleLog) console.log(`
 -------------
-STARTING TEST
+STARTING DEMO
 -------------`);
 
 // STEP 1: Load pptxgenjs and show version to verify everything loaded correctly
@@ -102,7 +102,7 @@ pptx.save( 'Node_Demo_Callback_'+getTimestamp(), saveCallback );
 
 if (gConsoleLog) console.log(`
 --------------
-TEST COMPLETE!
+DEMO COMPLETE!
 --------------
  * Files saved to...: ${__dirname}
 `);
